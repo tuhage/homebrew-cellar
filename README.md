@@ -10,7 +10,8 @@ brew install --cask tuhage/cellar/cellar
 
 This installs **Cellar.app** and the `cellar` command-line tool.
 
-Cellar updates itself in the app, so `brew upgrade` leaves it alone unless you pass `--greedy`.
+`brew upgrade` keeps Cellar up to date with your other packages, and so does Cellar's own Updates page.
+If Cellar is open when you run `brew upgrade`, brew quits it and reopens it afterwards.
 
 ## Uninstall
 
