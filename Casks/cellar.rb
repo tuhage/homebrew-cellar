@@ -1,6 +1,6 @@
 cask "cellar" do
-  version "1.7.2"
-  sha256 "690a937fe5bf041cc4e76ef9f0189b98db4c071f682852ac210989759e189434"
+  version "1.7.3"
+  sha256 "340956dba98faa9c7b038b8824fcaf24bb7dde34786d73a057cfe08f58cf0105"
 
   url "https://github.com/tuhage/Cellar/releases/download/v#{version}/Cellar-#{version}.dmg"
   name "Cellar"
